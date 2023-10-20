@@ -1,0 +1,23 @@
+/*utility classes (start)*/
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-block {
+  display: block;
+}
+
+.flex-col-cn {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+w-80 {
+  max-width: 80rem;
+}
+/*utility classes (end)*/

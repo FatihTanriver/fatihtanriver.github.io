@@ -1,0 +1,93 @@
+@media (max-width: 992px) {
+  /* You can adjust the breakpoint as per your need */
+  nav ul {
+    visibility: hidden; /* Changed from display: none */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(59, 62, 64, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out; /* Added visibility to the transition */
+  }
+
+  nav ul.active {
+    visibility: visible; /* Added this line */
+    opacity: 1;
+  }
+
+  nav ul li {
+    padding: 10px; /* Add padding around the menu items */
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .close-btn {
+    display: block; /* Make the close button visible on small screens */
+  }
+
+  header {
+    justify-content: space-between; /* Adjusts the layout on small screens */
+  }
+
+  .row-container {
+    /* display: flex; */
+    flex-direction: column;
+    row-gap: 10rem;
+    /* width: 80vw;
+    align-items: center;
+    justify-content: space-around; */
+  }
+
+  .row-item {
+    width: 80%;
+  }
+}
+
+/* Responsive design for smaller screens */
+@media (min-width: 769px) and (max-width: 992px) {
+  header {
+    height: 7rem;
+  }
+
+  header .logo {
+    margin-left: 1rem;
+  }
+
+  .row-container {
+    flex-direction: row;
+    width: 90vw;
+  }
+
+  .hero-container {
+    width: 30vw;
+  }
+
+  .pre-scrl-text {
+    font-weight: 600;
+    font-size: 2.8rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .row-item.scrl-txt-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+  }
+
+  .pre-scrl-text {
+    margin-right: 0;
+    margin-bottom: 4rem;
+  }
+}
