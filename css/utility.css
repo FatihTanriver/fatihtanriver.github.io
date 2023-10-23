@@ -1,4 +1,8 @@
 /*utility classes (start)*/
+.d-none {
+  display: none;
+}
+
 .d-inline {
   display: inline;
 }
@@ -19,5 +23,9 @@
 
 w-80 {
   max-width: 80rem;
+}
+
+.brdr-0 {
+  border: 0rem;
 }
 /*utility classes (end)*/

@@ -40,4 +40,24 @@ $(document).ready(function () {
       ); // Adjust the duration as needed for the desired scroll speed
     }
   });
+
+  $(".navRad .mask").on("touchstart click", function (e) {
+    e.preventDefault();
+    var $parent = $(this).parent();
+    $parent.toggleClass("active");
+
+    // Close the parent element with a transition after three seconds
+    setTimeout(function () {
+      $parent.removeClass("active");
+    }, 3000);
+  });
+
+  $(".navRad.left-bottom .nav-item").on("click", function (e) {
+    e.preventDefault();
+    var t = $(this).attr("href").replace("#", "");
+    $(".html").removeClass("visible");
+    $(".html." + t).addClass("visible");
+    $(".navRad.left-bottom").toggleClass("active");
+    App.title($(this).text());
+  });
 });
