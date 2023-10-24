@@ -162,7 +162,7 @@ header {
   text-align: center;
   border-radius: 50%;
   position: absolute;
-  background: #f23363;
+  background: #f63e34be;
   transition: all 0.1s ease-in-out 0s;
 }
 
@@ -182,7 +182,7 @@ header {
   height: inherit;
   border-radius: 50%;
   position: absolute;
-  background: #f23363;
+  background: #de6382;
   transform: rotate(-90deg);
   transition: all 0.1s ease-in-out 0s;
 }
@@ -218,7 +218,7 @@ header {
   width: 45px;
   height: 45px;
   color: #fff;
-  background-color: #f23363;
+  background-color: #de6382;
   font-size: 24px;
   transform: none;
   line-height: 45px;
@@ -365,7 +365,6 @@ header.shrink .logo {
 }
 
 header nav {
-  min-width: 70vw;
   max-width: 140rem;
 }
 

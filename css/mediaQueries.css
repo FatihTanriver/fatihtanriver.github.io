@@ -1,3 +1,9 @@
+@media (min-width: 993px) {
+  header nav {
+    min-width: 70vw;
+  }
+}
+
 @media (max-width: 992px) {
   /* You can adjust the breakpoint as per your need */
   nav ul {
@@ -49,6 +55,10 @@
 
   .row-item {
     width: 80%;
+  }
+
+  .theme-switcher {
+    margin-right: 1rem;
   }
 }
 
