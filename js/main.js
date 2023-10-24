@@ -68,6 +68,9 @@ $(document).ready(function () {
   let isTimeoutActive = false;
   $(".navRad .mask").on("touchstart click", function (e) {
     e.preventDefault();
+
+    $(".navRad").removeClass("active"); // Reset any other if exists
+
     var $parent = $(this).parent();
     $parent.toggleClass("active");
 
