@@ -64,7 +64,7 @@
 
 /* Color palette 3 */
 .palette-3 {
-  --bg-clr1: #87ceeb;
+  --bg-clr1: #c6da76;
   --bg-clr2: #ffff00;
   --bg-clr3: #00ff00;
   --bg-clr4: #8b4513;
@@ -116,7 +116,7 @@ header {
   z-index: 1000; /* Add this line to ensure nav is above other elements */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: rgba(59, 62, 64, 0.5);
   transition: all 0.5s ease-in-out;
@@ -364,16 +364,21 @@ header.shrink .logo {
   height: 4rem; /* Adjust as needed */
 }
 
+header nav {
+  min-width: 70vw;
+  max-width: 140rem;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
 }
 
 nav ul li {
   display: inline-block;
-  width: 10rem;
+  min-width: 10rem;
 }
 
 nav ul li a {
@@ -397,6 +402,7 @@ header.shrink #theme-toggle-btn {
   height: 3.2rem;
   font-size: 1.8rem;
 }
+
 /* Swithcer (End)*/
 
 /* Style for the Hamburger Menu */
@@ -541,7 +547,7 @@ footer {
 
 .pre-scrl-text {
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 4rem;
   color: var(--txt-clr1);
   margin-right: 2rem;

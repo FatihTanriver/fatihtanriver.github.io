@@ -28,4 +28,16 @@ w-80 {
 .brdr-0 {
   border: 0rem;
 }
+
+.test-border-black {
+  border: 1px solid black;
+}
+
+.test-border-red {
+  border: 1px solid red;
+}
+
+.test-border-green {
+  border: 1px solid green;
+}
 /*utility classes (end)*/

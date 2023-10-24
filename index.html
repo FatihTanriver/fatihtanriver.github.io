@@ -8,9 +8,10 @@
   <link rel="stylesheet" href="css/typography.css" />
   <link rel="stylesheet" href="css/utility.css" />
   <link rel="stylesheet" href="css/mediaQueries.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  <link rel="stylesheet" href="css/switcher.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
   <link rel="stylesheet" href="css/flag-icons.min.css" />
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
@@ -34,7 +35,7 @@
   <title>Fatih Tanriver Portfolio</title>
 </head>
 
-<body class="palette-1 day">
+<body class="palette-1">
   <header>
     <button class="hamburger" aria-label="Open menu">
       <span class="bar"></span>
@@ -47,21 +48,45 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#section1">Welcome</a></li>
-        <li><a href="#section2">About</a></li>
-        <li><a href="#section3">Skills</a></li>
-        <li><a href="#section4">Demos</a></li>
-        <li><a href="#section5">Contact</a></li>
+        <li><a href="#section1" data-lang="navigation_text_1">Welcome</a></li>
+        <li><a href="#section2" data-lang="navigation_text_2">About</a></li>
+        <li><a href="#section3" data-lang="navigation_text_3">Skills</a></li>
+        <li><a href="#section4" data-lang="navigation_text_4">Demos</a></li>
+        <li><a href="#section5" data-lang="navigation_text_5">Contact</a></li>
       </ul>
     </nav>
     <div class="theme-switcher">
-      <button id="theme-toggle-btn">Toggle Theme</button>
+      <!-- <button id="theme-toggle-btn">Toggle Theme</button> -->
+      <div class="d-inline-block">
+        <svg id="switcher-sun" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none"
+          stroke-width="1.5" viewBox="0 0 24 24" color="#000000">
+          <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+            d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM22 12h1M12 2V1M12 23v-1M20 20l-1-1M20 4l-1 1M4 20l1-1M4 4l1 1M1 12h1">
+          </path>
+        </svg>
+      </div>
+      <label class="switcher">
+        <input type="checkbox" id="theme-toggle-checkbox" />
+        <div class="switcher__indicator"></div>
+      </label>
+      <div class="d-inline-block">
+        <svg id="switcher-moon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none"
+          stroke-width="1.5" viewBox="0 0 24 24" color="#000000">
+          <circle cx="12" cy="12" r="10" stroke="#000000" stroke-width="1.5"></circle>
+          <path stroke="#000000" stroke-width="1.5"
+            d="M7.633 3.067A3.001 3.001 0 1 1 4.017 6.32M22 13.05a3.5 3.5 0 1 0-3 5.914"></path>
+          <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+            d="m14.5 8.51.01-.011M10 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
+        </svg>
+      </div>
+
     </div>
+
+
   </header>
   <main>
     <section id="section1" class="mainSection">
       <!-- <h2>Welcome Text to Website</h2> -->
-
       <div class="row-container">
         <div class="row-item hero-container">
           <img class="hero-img" src="images/undraw/programming1.svg" alt="hero image">
@@ -69,7 +94,7 @@
         <div class="row-item scrl-txt-wrapper">
 
           <div class="d-inline-block">
-            <span class="pre-scrl-text d-inline-block">I code with</span>
+            <span class="pre-scrl-text d-inline-block" data-lang="hero_text_1">I code with</span>
           </div>
 
           <div class="scrl d-inline-block">
@@ -134,29 +159,28 @@
 
   <footer>
     <h2>Footer Section</h2>
-    <a href="https://www.flaticon.com/free-icons/art" title="art icons">Art icons created by Freepik - Flaticon</a>
   </footer>
 
   <div class="navRad left-bottom">
 
     <button class="navRad-item navRad-count-1 brdr-0">
-      <img class="flag-sm" src="images/flags/star-turkey.png" alt="Flag Turkey">
+      <img class="flag-sm" src="images/flags/star-turkey.png" alt="Flag Turkey" onclick="changeLanguage('tr')">
     </button>
-    <button class="navRad-item navRad-count-2 brdr-0">
-      <img class="flag-sm" src="images/flags/star-usa.png" alt="Flag USA">
+    <button class=" navRad-item navRad-count-2 brdr-0">
+      <img class="flag-sm" src="images/flags/star-usa.png" alt="Flag USA" onclick="changeLanguage('en')">
     </button>
-    <button class="navRad-item navRad-count-3 brdr-0">
-      <img class="flag-sm" src="images/flags/star-spain.png" alt="Flag Spain">
+    <button class=" navRad-item navRad-count-3 brdr-0">
+      <img class="flag-sm" src="images/flags/star-spain.png" alt="Flag Spain" onclick="changeLanguage('es')">
     </button>
     <button class="navRad-item navRad-count-4 brdr-0">
-      <img class="flag-sm" src="images/flags/star-germany.png" alt="Flag Germany">
+      <img class="flag-sm" src="images/flags/star-germany.png" alt="Flag Germany" onclick="changeLanguage('de')">
     </button>
 
     <button class="mask brdr-0"><img class="flag-sm" src="images/flags/star-germany.png" alt=""></button>
   </div>
 
   <div class="navRad right-bottom">
-    <button class="theme-pie-chart-container navRad-item navRad-count-1 brdr-0">
+    <button class="theme-pie-chart-container navRad-item navRad-count-1 brdr-0 " onclick="changePalette('palette-1')">
       <div class="theme-pie-chart palette-1">
         <div class="slice1 theme-pie-circle animate"></div>
         <div class="slice2 theme-pie-circle animate"></div>
@@ -166,7 +190,7 @@
         <div class="slice6 theme-pie-circle animate"></div>
       </div><span class="d-none">Profile</span>
     </button>
-    <button class="theme-pie-chart-container navRad-item navRad-count-2 brdr-0">
+    <button class="theme-pie-chart-container navRad-item navRad-count-2 brdr-0" onclick="changePalette('palette-2')">
       <div class="theme-pie-chart palette-2">
         <div class="slice1 theme-pie-circle animate"></div>
         <div class="slice2 theme-pie-circle animate"></div>
@@ -176,7 +200,7 @@
         <div class="slice6 theme-pie-circle animate"></div>
       </div><span class="d-none">Profile</span><span class="d-none">Compose</span>
     </button>
-    <button class="theme-pie-chart-container navRad-item navRad-count-3 brdr-0">
+    <button class="theme-pie-chart-container navRad-item navRad-count-3 brdr-0" onclick="changePalette('palette-3')">
       <div class="theme-pie-chart palette-3">
         <div class="slice1 theme-pie-circle animate"></div>
         <div class="slice2 theme-pie-circle animate"></div>
