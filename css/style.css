@@ -527,11 +527,14 @@ footer {
 /*--Main Section3 Specific (Start)*/
 #section3 {
   background-color: var(--bg-clr3);
+  flex-direction: column;
+  padding: 3rem 0;
 }
 /*--Main Section3 Specific (End)*/
 
 /*--Main Section4 Specific (Start)*/
 #section4 {
+  flex-direction: column;
   background-color: var(--bg-clr4);
 }
 /*--Main Section4 Specific (End)*/

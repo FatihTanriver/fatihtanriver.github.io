@@ -1,0 +1,201 @@
+#allSkills.container {
+  position: relative;
+  width: 540px;
+  height: 540px;
+}
+
+#allSkills .logo {
+  position: absolute;
+  left: calc((540px - 100px) / 2);
+  top: calc((540px - 100px) / 2);
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  /* background: #fff url(https://www.designeinheit.de/kunden/mm/logo_mm_kreis.svg)
+    center center no-repeat; */
+  background-size: 80%;
+  box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#allSkills .inner {
+  position: absolute;
+  left: calc((540px - 240px) / 2);
+  top: calc((540px - 240px) / 2);
+  width: 240px;
+  height: 240px;
+  background: url(https://www.designeinheit.de/kunden/mm/text_kreislauf.svg)
+    center center;
+  background-size: contain;
+  animation: rotate 30s reverse linear infinite;
+}
+
+#allSkills .middle,
+#allSkills .outer {
+  position: absolute;
+  pointer-events: none;
+}
+
+#allSkills .middle {
+  left: calc((540px - 320px) / 2);
+  top: calc((540px - 320px) / 2);
+  width: 320px;
+  height: 320px;
+  animation: rotate 35s linear infinite;
+}
+
+#allSkills .outer {
+  left: calc((540px - 440px) / 2);
+  top: calc((540px - 440px) / 2);
+  width: 440px;
+  height: 440px;
+  animation: rotate 45s reverse linear infinite;
+}
+
+#allSkills .middle.dots,
+.outer.dots {
+  border: 0.5px solid #5b5f62;
+  border-radius: 500px;
+}
+
+#allSkills .middle.dots {
+  border-color: #eb860e;
+}
+
+#allSkills .dot {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  left: -24px;
+  top: calc(50% - 24px);
+  border-radius: 100px;
+  background: #fff center center;
+  background-size: 85%;
+  box-shadow: inset 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* #allSkills .icon-buch {
+  background-image: url(https://www.designeinheit.de/kunden/mm/icon_buch.svg);
+}
+
+#allSkills .icon-screen {
+  background-image: url(https://www.designeinheit.de/kunden/mm/icon_screen.svg);
+}
+
+#allSkills .icon-kompass {
+  background-image: url(https://www.designeinheit.de/kunden/mm/icon_kompass.svg);
+}
+
+#allSkills .icon-film {
+  background-image: url(https://www.designeinheit.de/kunden/mm/icon_film.svg);
+} */
+
+#allSkills .target {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: -32px;
+  top: calc(50% - 32px);
+  border-radius: 32px;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+#allSkills .dot:nth-child(2) {
+  left: calc(100% - 24px);
+}
+
+#allSkills .target:nth-child(2) {
+  left: calc(100% - 32px);
+}
+
+#allSkills .middle .dot,
+#allSkills .middle .target {
+  animation: rotate 35s reverse linear infinite;
+}
+
+#allSkills .outer .dot,
+.outer .target {
+  animation: rotate 45s linear infinite;
+}
+
+#allSkills .tooltip {
+  display: block;
+  position: absolute;
+  width: 170px;
+  height: 26px;
+  left: calc(50% - 85px);
+  top: -10px;
+  background-color: #eb860e;
+  color: #fff;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 26px;
+  opacity: 0;
+  transition: top 0.15s ease-out, opacity 0.15s ease-out;
+  pointer-events: none;
+}
+
+#allSkills .target:hover .tooltip {
+  top: -25px;
+  opacity: 1;
+}
+
+#allSkills .menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 540px;
+  height: 540px;
+  border-radius: 540px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#allSkills .menu > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#allSkills .menu > div > div {
+  margin-bottom: 20px;
+}
+
+#allSkills .menu h2 {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  color: #eb860e;
+  margin-bottom: 0.5em;
+}
+
+#allSkills .menu li {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #5b5f62;
+}
+
+#allSkills .menu .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: #fff;
+  background-position: center center;
+  background-size: 85%;
+  box-shadow: inset 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

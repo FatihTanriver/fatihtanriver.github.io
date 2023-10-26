@@ -135,6 +135,12 @@ $(document).ready(function () {
   $(window).on("resize", callbackFunc);
   $(window).on("scroll", callbackFunc);
   /* Timeline */
+
+  /* Start Choronology*/
+  $(".target, .menu").click(function () {
+    $(".menu").toggle();
+  });
+  /* End Choronology*/
 });
 
 /*Start Language Translation*/
