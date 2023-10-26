@@ -106,6 +106,35 @@ $(document).ready(function () {
     $(".navRad.left-bottom").toggleClass("active");
     clearTimeout(timeout);
   });
+
+  /* Timeline */
+  // define variables
+  var $items = $(".timeline li");
+
+  // check if an element is in viewport
+  function isElementInViewport($el) {
+    var rect = $el[0].getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= $(window).height() &&
+      rect.right <= $(window).width()
+    );
+  }
+
+  function callbackFunc() {
+    $items.each(function () {
+      if (isElementInViewport($(this))) {
+        $(this).addClass("in-view");
+      }
+    });
+  }
+
+  // listen for events
+  $(window).on("load", callbackFunc);
+  $(window).on("resize", callbackFunc);
+  $(window).on("scroll", callbackFunc);
+  /* Timeline */
 });
 
 /*Start Language Translation*/
