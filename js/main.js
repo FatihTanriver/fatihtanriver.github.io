@@ -141,6 +141,19 @@ $(document).ready(function () {
     $(".menu").toggle();
   });
   /* End Choronology*/
+
+  /*Start Contact*/
+
+  $(".contact-direct .form-control label").each(function () {
+    var $label = $(this);
+    var text = $label.text();
+    var letters = text.split("").map(function (letter, idx) {
+      return `<span style="transition-delay:${idx * 50}ms">${letter}</span>`;
+    });
+    $label.html(letters.join(""));
+  });
+
+  /*End Contact*/
 });
 
 /*Start Language Translation*/

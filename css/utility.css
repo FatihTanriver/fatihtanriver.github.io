@@ -40,4 +40,8 @@ w-80 {
 .test-border-green {
   border: 1px solid green;
 }
+
+.test-padding {
+  padding: 2rem;
+}
 /*utility classes (end)*/
