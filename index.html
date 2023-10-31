@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/mediaQueries.css" />
   <link rel="stylesheet" href="css/switcher.css" />
   <link rel="stylesheet" href="css/timeline.css" />
-  <link rel="stylesheet" href="css/chronology.css" />
+  <link rel="stylesheet" href="css/radialAnimation.css" />
   <link rel="stylesheet" href="css/contactPage.css" />
 
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -147,122 +147,123 @@
       <h2>Skills and Tools</h2>
     </section> -->
 
-    <section id="section3" class="timeline mainSection">
-      <h2>My Timeline</h2>
-      <div>
-        <ul>
+    <section id="section3" class=" mainSection">
+      <div class="timeline-wrapper">
+        <ul class="timeline">
+          <!-- Item 1 -->
           <li>
-            <div>
-              <time>1997-2004</time>
-              <strong>Sükrü Sankaya Bilinguales Gymnasium</strong>
-              <p>
-                I specialize in Mathematics, Natural Sciences, and English. I'm proficient in both English and German,
-                enabling effective communication and cross-cultural understanding.
-              </p>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">SSAL Gymnasium </span>
+                <span class="time-wrapper">
+                  <span class="time">1997-2004</span>
+                </span>
+              </div>
+              <div class="desc">I attended Sükrü Sankaya Bilinguales Gymnasium, specializing in Mathematics, Natural
+                Sciences, English, and German.</div>
             </div>
           </li>
+
+          <!-- Item 2 -->
           <li>
-            <div>
-              <time>2005-2010</time>
-              <strong>Sükrü Sankaya Bilinguales Gymnasium</strong>
-              <strong>Mathematik Ingenieurwissenschaft</strong>
-              <p>
-                I completed a Diploma program in Mathematical Engineering, specializing in mathematics, software
-                programming, statistics, financial mathematics, database applications, and physics. My proficiency
-                extends
-                to programming languages like C#, Java, C++, MATLAB, MySQL. My diploma thesis focused on Graph Theory
-                and
-                its practical applications, earning me an exceptional final grade of 1.0.
-              </p>
+            <div class="direction-l">
+              <div>
+                <div class="flag-wrapper">
+                  <span class="flag"> TU Yildiz </span>
+                  <span class="time-wrapper"><span class="time">2005 - 2010</span></span>
+                </div>
+              </div>
+              <div class="desc">I completed a Diploma program in Mathematical Engineering with a specialization in
+                mathematics, software programming, statistics, financial mathematics, database applications, and
+                physics.
+              </div>
             </div>
           </li>
+
+          <!-- Item 3 -->
           <li>
-            <div>
-              <time>2011-2015</time>
-              <strong> Frankfurt University of Applied Sciences</strong>
-              <strong> High Integrity Systems</strong>
-              <p>
-                I pursued a Master's degree in High Integrity Systems with a focus on software programming, mathematics,
-                statistics, system programming, and IT security. I am proficient in C#, C++, Java, UML, R, SAS,
-                Mathematica, Simca, MySQL, MS Office, and SVN. My master's thesis involved implementing calculation
-                models
-                using multidimensional data structures and visualization within a .NET environment, achieving a
-                commendable final grade of 1.9.
-              </p>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">Frankfurt UAS</span>
+
+                <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+              </div>
+              <div class="desc">I completed the High Integrity Systems (M.Sc.) program at Frankfurt University of
+                Applied
+                Sciences, which focuses on the development of software for Safety and Mission-Critical Systems</div>
             </div>
           </li>
+
+          <!-- Item 4 -->
           <li>
-            <div>
-              <time>2012</time>
-              <strong> KG IT System Consulting</strong>
-              <strong> Student employee as software developer</strong>
-              <p>
-                As a student employee, I worked as a software developer with a focus on frontend development. I
-                specialized in web crawling and parsing, analyzed various websites, collected data, and created my web
-                projects. I ensured cross-browser compatibility using HTML, CSS, and JQuery, with experience in Firebug.
-                Additionally, I gained practical experience in backend development using Java, Apache Maven, Eclipse,
-                MySQL, and worked with SVN.
-              </p>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">KG IT Systems Consulting</span>
+
+
+                <span class="time-wrapper"><span class="time">2012</span></span>
+              </div>
+
+              <div class="desc">
+                During the summer break, I worked on a web project using Java, where I performed various tasks such as
+                web
+                crawling, data preparation, and data presentation.</div>
             </div>
           </li>
+
+          <!-- Item 5 -->
           <li>
-            <div>
-              <time>2014-2015</time>
-              <strong> Datenwerk GmbH</strong>
-              <strong> Student Software Developer</strong>
-              <p>
-                As a student software developer, I specialized in custom software solutions, database applications, and
-                frontend development. I had proficiency in C#, R, .NET 4.0, UML, MVC4, CSS3, JavaScript, Oracle, XHTML,
-                and SVN. I converted Windows Forms to MVC, ensured cross-browser compatibility, and contributed to
-                complex
-                controlling applications using NHibernate and Spring.NET
-              </p>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">Datenwerk GmbH</span>
+                <span class="time-wrapper"><span class="time">2014-2015</span></span>
+              </div>
+              <div class="desc">I worked as a student developer for one year, participating in MVC and WinForm projects
+                using C# as the programming language and NHibernate as the ORM</div>
             </div>
           </li>
+
+          <!-- Item 6 -->
           <li>
-            <div>
-              <time>2014-2015</time>
-              <strong> Datenwerk GmbH</strong>
-              <strong> Master Thesis</strong>
-              <p>
-                For my master's thesis, I integrated R-functionality into C# MVC, utilizing R.NET, .NET 4.0, NHibernate,
-                Spring .NET, UML, MVC4, CSS3, JavaScript, Oracle, XHTML, and Antlr3. I developed calculation models with
-                R, handling multiarrays and dataframes through multidimensional data structures.
-              </p>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">Datenwerk GmbH</span>
+                <span class="time-wrapper"><span class="time">2014-2015</span></span>
+              </div>
+              <div class="desc">For my master's thesis, I integrated R functionality into a C# MVC web project. I
+                developed calculation models using R, which involved handling multiarrays and dataframes through
+                multidimensional data structures.</div>
             </div>
           </li>
+
+          <!-- Item 7 -->
           <li>
-            <div>
-              <time>2016</time>
-              <strong>Bayoonet AG</strong>
-              <strong>Junior Softwaredeveloper</strong>
-              <p>
-                My role primarily focused on Web development, specializing in creating and enhancing dynamic, responsive
-                web pages using C#, MVC, MSSQL, LESS/CSS, JQuery, Bootstrap, Fullpage.js, and SVG-Animation. I also
-                contributed to the development of customized software solutions for interactive advertising, ensured
-                cross-browser compatibility, conducted UI testing, and participated in code review and
-                testing for an embedded system used in insulin pumps. I gained practical experience with
-                version control using SVN and actively led daily meetings, as well as review and retro meetings,
-                following
-                Agile development methodologies, particularly Scrum.
-              </p>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">Bayoonet AG</span>
+                <span class="time-wrapper"><span class="time">2016</span></span>
+              </div>
+              <div class="desc">My primary role focused on web development, specializing in creating and enhancing
+                dynamic, responsive web pages using C#, MVC, Bootstrap, and Fullpage.js. I also briefly worked in
+                testing
+                embedded system software.</div>
             </div>
           </li>
+
+          <!-- Item 8 -->
           <li>
-            <div>
-              <time>2016-2023</time>
-              <strong>Bayoonet AG</strong>
-              <strong>Junior Softwaredeveloper</strong>
-              <p>
-                I was a seasoned Softwareentwickler with a focus on web project development, using C#, MVC, .NET,
-                NHibernate, Spring .NET, Oracle, and MSSQL. I specialized in GUI implementation, complex data
-                visualization, and workflow optimization. My expertise included automated testing, code quality checks,
-                and version control with GIT, SVN, and TortoiseGIT. I had project management experience with JIRA,
-                Confluence, and Bitbucket, as well as CI/CD implementation using GitLab and Jenkins. I led projects
-                involving responsive design frameworks, ensuring compatibility, and overseeing technical concepts,
-                documentation, and project management. Additionally, I mentored junior developers, assigned tasks,
-                conducted code reviews, and facilitated project monitoring meetings.
-              </p>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">Datenwerk GmbH</span>
+
+                <span class="time-wrapper"><span class="time">2016 - 2023</span></span>
+              </div>
+              <div class="desc">I primarily worked on various C# MVC projects, handling both backend and frontend
+                development. I specialized in GUI implementation, complex data visualization, and workflow optimization.
+                During this time, I gained experience in technical concepts, documentation, and project management. I
+                also
+                conducted various types of testing, including Unit, Integration, and End-to-End testing.
+              </div>
             </div>
           </li>
         </ul>
