@@ -99,6 +99,8 @@
   font-weight: normal;
   text-decoration: none;
   list-style: none;
+  max-width: 100%; /*block horizontal screen*/
+  overflow-x: hidden; /*block horizontal screen*/
 }
 
 body {
