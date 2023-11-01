@@ -71,6 +71,12 @@ input:disabled + .switcher__indicator::before {
   background-color: #e5e5e5;
 }
 
+#switcher-moon,
+#switcher-sun {
+  width: calc(4 * var(--sw_const));
+  height: calc(4 * var(--sw_const));
+}
+
 @-webkit-keyframes pulsein {
   0%,
   100% {
@@ -129,6 +135,7 @@ input:disabled + .switcher__indicator::before {
   .theme-switcher {
     --sw_const: 0.5rem;
   }
+
 }
 
 @media screen and (max-width: 600px) {

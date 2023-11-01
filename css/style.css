@@ -356,7 +356,12 @@ header .logo {
 header.shrink {
   height: 5rem; /* Adjust as needed */
   transition: height 0.5s ease; /* Smooth transition */
-  background-color: rgba(59, 62, 64, 0.2);
+  background-color: rgba(59, 62, 64, 0.3);
+  transition: background-color 0.5s ease, height 0.5s ease, opacity 0.5s ease;
+}
+
+header:hover {
+  background-color: rgba(59, 62, 64, 1);
 }
 
 header.shrink .logo {
