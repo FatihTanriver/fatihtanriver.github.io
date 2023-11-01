@@ -133,10 +133,12 @@ input:disabled + .switcher__indicator::before {
 
 @media screen and (max-width: 900px) {
   .theme-switcher {
-    --sw_const: 0.5rem;
+    --sw_const: 0.8rem;
   }
-
 }
 
 @media screen and (max-width: 600px) {
+  .theme-switcher {
+    --sw_const: 0.5rem;
+  }
 }

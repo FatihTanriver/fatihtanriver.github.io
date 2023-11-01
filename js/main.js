@@ -157,9 +157,19 @@ $(document).ready(function () {
   /*End Contact*/
 });
 
+let langFlags = {
+  tr: "images/flags/star-turkey.png",
+  de: "images/flags/star-germany.png",
+  es: "images/flags/star-spain.png",
+  en: "images/flags/star-usa.png",
+};
+
 /*Start Language Translation*/
 function changeLanguage(langKey) {
   //localStorage.getItem("language") == null ? setLanguage(langKey) : false;
+
+  $("#language-button img").attr("src", langFlags[langKey]);
+
   setLanguage(langKey);
   language = localStorage.getItem("language");
   var jsonUrl = "";
@@ -247,8 +257,12 @@ function updateTranslations() {
 
 /*Start Color Palette*/
 
-function changePalette(newClass) {
+function changePalette(newClass, button) {
   $("body").removeClass("palette-1 palette-2 palette-3").addClass(newClass);
+
+  $(".theme-pie-chart-container").removeClass("active");
+
+  $(button).addClass("active");
 }
 
 /*End Color Palette */

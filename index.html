@@ -92,6 +92,7 @@
       <div class="row-container">
         <div class="row-item hero-container">
           <img class="hero-img" src="images/undraw/programming1.svg" alt="hero image">
+
         </div>
         <div class="row-item scrl-txt-wrapper">
 
@@ -540,11 +541,13 @@
       <img class="flag-sm" src="images/flags/star-germany.png" alt="Flag Germany" onclick="changeLanguage('de')">
     </button>
 
-    <button class="mask brdr-0"><img class="flag-sm" src="images/flags/star-germany.png" alt=""></button>
+    <button id="language-button" class="mask brdr-0"><img class="flag-sm" src="images/flags/star-germany.png"
+        alt=""></button>
   </div>
 
   <div class="navRad right-bottom">
-    <button class="theme-pie-chart-container navRad-item navRad-count-1 brdr-0 " onclick="changePalette('palette-1')">
+    <button class="theme-pie-chart-container navRad-item navRad-count-1 brdr-0 active"
+      onclick="changePalette('palette-1',this)">
       <div class="theme-pie-chart palette-1">
         <div class="slice1 theme-pie-circle animate"></div>
         <div class="slice2 theme-pie-circle animate"></div>
@@ -554,7 +557,8 @@
         <div class="slice6 theme-pie-circle animate"></div>
       </div><span class="d-none">Profile</span>
     </button>
-    <button class="theme-pie-chart-container navRad-item navRad-count-2 brdr-0" onclick="changePalette('palette-2')">
+    <button class="theme-pie-chart-container navRad-item navRad-count-2 brdr-0"
+      onclick="changePalette('palette-2',this)">
       <div class="theme-pie-chart palette-2">
         <div class="slice1 theme-pie-circle animate"></div>
         <div class="slice2 theme-pie-circle animate"></div>
@@ -564,7 +568,8 @@
         <div class="slice6 theme-pie-circle animate"></div>
       </div><span class="d-none">Profile</span><span class="d-none">Compose</span>
     </button>
-    <button class="theme-pie-chart-container navRad-item navRad-count-3 brdr-0" onclick="changePalette('palette-3')">
+    <button class="theme-pie-chart-container navRad-item navRad-count-3 brdr-0"
+      onclick="changePalette('palette-3', this)">
       <div class="theme-pie-chart palette-3">
         <div class="slice1 theme-pie-circle animate"></div>
         <div class="slice2 theme-pie-circle animate"></div>

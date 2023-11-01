@@ -162,12 +162,12 @@ header {
   text-align: center;
   border-radius: 50%;
   position: absolute;
-  background: #f63e34be;
+  background: #fff;
   transition: all 0.1s ease-in-out 0s;
 }
 
 .navRad.active .mask {
-  background: #cf0e3f;
+  background: #fdd8e4;
   transition: opacity 2s ease-in-out;
   /* opacity: 0; */
   pointer-events: none; /* Optionally disable pointer events during transition */
@@ -215,8 +215,8 @@ header {
   top: 0;
   left: 0;
   z-index: 19;
-  width: 45px;
-  height: 45px;
+  width: 4.5rem;
+  height: 4.5rem;
   color: #fff;
   background-color: #de6382;
   font-size: 24px;
@@ -261,15 +261,15 @@ header {
 }
 
 .navRad.right-bottom.active .navRad-count-1 {
-  transform: translate(0px, -105px);
+  transform: translate(-10px, -115px);
 }
 
 .navRad.right-bottom.active .navRad-count-2 {
-  transform: translate(-70px, -70px);
+  transform: translate(-78px, -78px);
 }
 
 .navRad.right-bottom.active .navRad-count-3 {
-  transform: translate(-100px, 0px);
+  transform: translate(-115px, -10px);
 }
 
 .flag-sm {
@@ -279,7 +279,7 @@ header {
 }
 
 .palette-sm {
-  width: 3rem;
+  width: 4rem;
 }
 
 .theme-pie-chart {
@@ -289,6 +289,11 @@ header {
   margin: 30px auto;
 }
 
+.navRad.active .theme-pie-chart-container.active {
+  border: 3px solid black;
+  box-sizing: content-box;
+}
+
 .navRad .theme-pie-chart-container {
   display: flex;
   justify-content: center;
@@ -296,9 +301,15 @@ header {
   background-color: var(--ct2-mint-cream);
 }
 
+.navRad.active .theme-pie-chart,
+.navRad.active .navRad-item {
+  width: 6rem;
+  height: 6rem;
+}
+
 .navRad .theme-pie-chart {
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
   margin: 0 auto;
 }
 
