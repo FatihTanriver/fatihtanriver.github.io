@@ -5,7 +5,16 @@
 }
 
 @media (max-width: 992px) {
+  header {
+    width: 100vw;
+  }
+
   /* You can adjust the breakpoint as per your need */
+
+  .header-logo {
+    visibility: hidden;
+  }
+
   nav ul {
     visibility: hidden; /* Changed from display: none */
     position: fixed;
@@ -42,6 +51,7 @@
 
   header {
     justify-content: space-between; /* Adjusts the layout on small screens */
+    padding: 0 2rem;
   }
 
   .row-container {
@@ -89,6 +99,10 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  header {
+    width: 100vw;
+  }
+
   .row-item.scrl-txt-wrapper {
     display: flex;
     flex-direction: column;

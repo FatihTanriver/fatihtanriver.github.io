@@ -4,5 +4,21 @@
   "navigation_text_3": "Chronologie",
   "navigation_text_4": "Beispiele",
   "navigation_text_5": "Kontakt",
-  "hero_text_1": "Ich codiere mit"
+  "hero_text_1": "Ich codiere mit",
+  "timeline_entity_name_1": "SSAL Gymnasium",
+  "timeline_entity_name_2": "TU Yildiz",
+  "timeline_entity_name_3": "Frankfurt UAS",
+  "timeline_entity_name_4": "KG IT Systems Consulting",
+  "timeline_entity_name_5": "Datenwerk GmbH",
+  "timeline_entity_name_6": "Datenwerk GmbH",
+  "timeline_entity_name_7": "Bayoonet AG",
+  "timeline_entity_name_8": "Datenwerk GmbH",
+  "timeline_entity_desc_1": "Ich besuchte das Sükrü Sankaya Bilinguales Gymnasium, mit den Fächern Mathematik, Naturwissenschaften Naturwissenschaften, Englisch und Deutsch.",
+  "timeline_entity_desc_2": "Ich absolvierte einen Diplomstudiengang in Mathematical Engineering mit den Schwerpunkten Mathematik, Softwareprogrammierung, Statistik, Finanzmathematik, Datenbankanwendungen und Physik.",
+  "timeline_entity_desc_3": "Ich habe den Studiengang High Integrity Systems (M.Sc.) an der Frankfurt University of Applied Sciences abgeschlossen, der sich auf die Entwicklung von Software für sicherheits- und unternehmenskritische Systeme konzentriert.",
+  "timeline_entity_desc_4": "Während der Sommerpause arbeitete ich an einem Webprojekt mit Java, wo ich verschiedene Aufgaben wie Web-Crawling, Datenaufbereitung und Datenpräsentation durchführte.",
+  "timeline_entity_desc_5": "Ich habe ein Jahr lang als studentischer Entwickler an MVC- und WinForm-Projekten mit C# als Programmiersprache und NHibernate als ORM gearbeitet.",
+  "timeline_entity_desc_6": "Für meine Masterarbeit habe ich R-Funktionen in ein C#-MVC-Webprojekt integriert. Ich entwickelte Berechnungsmodelle unter Verwendung von R, was die Handhabung von Multiarrays und Dataframes durch multidimensionale Datenstrukturen beinhaltete.",
+  "timeline_entity_desc_7": "Meine Hauptaufgabe war die Webentwicklung, wobei ich mich auf die Erstellung und Verbesserung dynamischer, reaktionsfähiger Webseiten mit C#, MVC, Bootstrap und Fullpage.js spezialisiert habe. Außerdem habe ich kurzzeitig mit dem Testen eingebetteter Systemsoftware gearbeitet.",
+  "timeline_entity_desc_8": "Ich habe hauptsächlich an verschiedenen C# MVC-Projekten gearbeitet, sowohl für die Backend- als auch für die Frontend Entwicklung. Dabei habe ich mich auf GUI-Implementierung, komplexe Datenvisualisierung und Workflow-Optimierung spezialisiert. Während dieser Zeit sammelte ich Erfahrungen in den Bereichen technische Konzepte, Dokumentation und Projektmanagement.Außerdem habe ich verschiedene Arten von Tests durchgeführt, darunter Unit-, Integrations- und End-to-End-Tests"
 }

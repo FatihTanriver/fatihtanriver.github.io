@@ -39,6 +39,7 @@ $(document).ready(function () {
   });
 
   $(".hamburger").click(function () {
+    $(".header-logo").toggleClass("active");
     $("nav ul").toggleClass("active");
     $(this).toggleClass("active"); // Added this line
   });
@@ -225,6 +226,22 @@ function updateTranslations() {
   $("[data-lang=navigation_text_4]").text(language.navigation_text_4);
   $("[data-lang=navigation_text_5]").text(language.navigation_text_5);
   $("[data-lang=hero_text_1]").text(language.hero_text_1);
+  $("[data-lang=timeline_entity_name_1]").text(language.timeline_entity_name_1);
+  $("[data-lang=timeline_entity_name_2]").text(language.timeline_entity_name_2);
+  $("[data-lang=timeline_entity_name_3]").text(language.timeline_entity_name_3);
+  $("[data-lang=timeline_entity_name_4]").text(language.timeline_entity_name_4);
+  $("[data-lang=timeline_entity_name_5]").text(language.timeline_entity_name_5);
+  $("[data-lang=timeline_entity_name_6]").text(language.timeline_entity_name_6);
+  $("[data-lang=timeline_entity_name_7]").text(language.timeline_entity_name_7);
+  $("[data-lang=timeline_entity_name_8]").text(language.timeline_entity_name_8);
+  $("[data-lang=timeline_entity_desc_1]").text(language.timeline_entity_desc_1);
+  $("[data-lang=timeline_entity_desc_2]").text(language.timeline_entity_desc_2);
+  $("[data-lang=timeline_entity_desc_3]").text(language.timeline_entity_desc_3);
+  $("[data-lang=timeline_entity_desc_4]").text(language.timeline_entity_desc_4);
+  $("[data-lang=timeline_entity_desc_5]").text(language.timeline_entity_desc_5);
+  $("[data-lang=timeline_entity_desc_6]").text(language.timeline_entity_desc_6);
+  $("[data-lang=timeline_entity_desc_7]").text(language.timeline_entity_desc_7);
+  $("[data-lang=timeline_entity_desc_8]").text(language.timeline_entity_desc_8);
 }
 /*End Language Translation*/
 

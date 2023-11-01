@@ -43,11 +43,16 @@
       <span class="bar"></span>
     </button>
 
-    <div>
+    <!-- <div class="header-logo">
       <img class="logo" src="images/logo1A.png" alt="logo site" />
-    </div>
+    </div> -->
     <nav>
       <ul>
+        <li>
+          <div class="header-logo">
+            <img class="logo" src="images/logo1A.png" alt="logo site" />
+          </div>
+        </li>
         <li><a href="#section1" data-lang="navigation_text_1">Welcome</a></li>
         <li><a href="#section2" data-lang="navigation_text_2">About</a></li>
         <li><a href="#section3" data-lang="navigation_text_3">Skills</a></li>
@@ -154,12 +159,13 @@
           <li>
             <div class="direction-r">
               <div class="flag-wrapper">
-                <span class="flag">SSAL Gymnasium </span>
+                <span class="flag" data-lang="timeline_entity_name_1">SSAL Gymnasium</span>
                 <span class="time-wrapper">
                   <span class="time">1997-2004</span>
                 </span>
               </div>
-              <div class="desc">I attended Sükrü Sankaya Bilinguales Gymnasium, specializing in Mathematics, Natural
+              <div class="desc" data-lang="timeline_entity_desc_1">I attended Sükrü Sankaya Bilinguales Gymnasium,
+                specializing in Mathematics, Natural
                 Sciences, English, and German.</div>
             </div>
           </li>
@@ -169,11 +175,12 @@
             <div class="direction-l">
               <div>
                 <div class="flag-wrapper">
-                  <span class="flag"> TU Yildiz </span>
+                  <span class="flag" data-lang="timeline_entity_name_2"> TU Yildiz </span>
                   <span class="time-wrapper"><span class="time">2005 - 2010</span></span>
                 </div>
               </div>
-              <div class="desc">I completed a Diploma program in Mathematical Engineering with a specialization in
+              <div class="desc" data-lang="timeline_entity_desc_2">I completed a Diploma program in Mathematical
+                Engineering with a specialization in
                 mathematics, software programming, statistics, financial mathematics, database applications, and
                 physics.
               </div>
@@ -184,11 +191,12 @@
           <li>
             <div class="direction-r">
               <div class="flag-wrapper">
-                <span class="flag">Frankfurt UAS</span>
+                <span class="flag" data-lang="timeline_entity_name_3">Frankfurt UAS</span>
 
                 <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
               </div>
-              <div class="desc">I completed the High Integrity Systems (M.Sc.) program at Frankfurt University of
+              <div class="desc" data-lang="timeline_entity_desc_3">I completed the High Integrity Systems (M.Sc.)
+                program at Frankfurt University of
                 Applied
                 Sciences, which focuses on the development of software for Safety and Mission-Critical Systems</div>
             </div>
@@ -198,13 +206,13 @@
           <li>
             <div class="direction-l">
               <div class="flag-wrapper">
-                <span class="flag">KG IT Systems Consulting</span>
+                <span class="flag" data-lang="timeline_entity_name_4">KG IT Systems Consulting</span>
 
 
                 <span class="time-wrapper"><span class="time">2012</span></span>
               </div>
 
-              <div class="desc">
+              <div class="desc" data-lang="timeline_entity_desc_4">
                 During the summer break, I worked on a web project using Java, where I performed various tasks such as
                 web
                 crawling, data preparation, and data presentation.</div>
@@ -215,10 +223,11 @@
           <li>
             <div class="direction-r">
               <div class="flag-wrapper">
-                <span class="flag">Datenwerk GmbH</span>
+                <span class="flag" data-lang="timeline_entity_name_5">Datenwerk GmbH</span>
                 <span class="time-wrapper"><span class="time">2014-2015</span></span>
               </div>
-              <div class="desc">I worked as a student developer for one year, participating in MVC and WinForm projects
+              <div class="desc" data-lang="timeline_entity_desc_5">I worked as a student developer for one year,
+                participating in MVC and WinForm projects
                 using C# as the programming language and NHibernate as the ORM</div>
             </div>
           </li>
@@ -227,10 +236,11 @@
           <li>
             <div class="direction-l">
               <div class="flag-wrapper">
-                <span class="flag">Datenwerk GmbH</span>
+                <span class="flag" data-lang="timeline_entity_name_6">Datenwerk GmbH</span>
                 <span class="time-wrapper"><span class="time">2014-2015</span></span>
               </div>
-              <div class="desc">For my master's thesis, I integrated R functionality into a C# MVC web project. I
+              <div class="desc" data-lang="timeline_entity_desc_6">For my master's thesis, I integrated R functionality
+                into a C# MVC web project. I
                 developed calculation models using R, which involved handling multiarrays and dataframes through
                 multidimensional data structures.</div>
             </div>
@@ -240,10 +250,11 @@
           <li>
             <div class="direction-r">
               <div class="flag-wrapper">
-                <span class="flag">Bayoonet AG</span>
+                <span class="flag" data-lang="timeline_entity_name_7">Bayoonet AG</span>
                 <span class="time-wrapper"><span class="time">2016</span></span>
               </div>
-              <div class="desc">My primary role focused on web development, specializing in creating and enhancing
+              <div class="desc" data-lang="timeline_entity_desc_7">My primary role focused on web development,
+                specializing in creating and enhancing
                 dynamic, responsive web pages using C#, MVC, Bootstrap, and Fullpage.js. I also briefly worked in
                 testing
                 embedded system software.</div>
@@ -254,11 +265,12 @@
           <li>
             <div class="direction-l">
               <div class="flag-wrapper">
-                <span class="flag">Datenwerk GmbH</span>
+                <span class="flag" data-lang="timeline_entity_name_8">Datenwerk GmbH</span>
 
                 <span class="time-wrapper"><span class="time">2016 - 2023</span></span>
               </div>
-              <div class="desc">I primarily worked on various C# MVC projects, handling both backend and frontend
+              <div class="desc" data-lang="timeline_entity_desc_8">I primarily worked on various C# MVC projects,
+                handling both backend and frontend
                 development. I specialized in GUI implementation, complex data visualization, and workflow optimization.
                 During this time, I gained experience in technical concepts, documentation, and project management. I
                 also
@@ -388,99 +400,123 @@
     <section id="section5" class="mainSection">
 
       <!--<h2>Contact Info</h2> -->
+      <div class="contact-wrapper">
 
-      <div class="contact-direct">
-        <form>
-          <div class="form-control">
-            <input type="text" required>
-            <label>Email</label>
-            <!-- <label>
-                <span style="transition-delay: 0ms">E</span>
-                  <span style="transition-delay: 50ms">m</span>
-                  <span style="transition-delay: 100ms">a</span>
-                  <span style="transition-delay: 150ms">i</span>
-                  <span style="transition-delay: 200ms">l</span>
-            </label> -->
-          </div>
+        <div class="contact-direct">
+          <form>
+            <div class="form-control">
+              <input type="text" required>
+              <label>Email</label>
+              <!-- <label>
+            <span style="transition-delay: 0ms">E</span>
+              <span style="transition-delay: 50ms">m</span>
+              <span style="transition-delay: 100ms">a</span>
+              <span style="transition-delay: 150ms">i</span>
+              <span style="transition-delay: 200ms">l</span>
+        </label> -->
+            </div>
 
-          <div class="form-control">
-            <input type="password" required>
-            <label>Password</label>
-          </div>
+            <div class="form-control">
+              <input type="password" required>
+              <label>Password</label>
+            </div>
 
-          <div class="form-control">
-            <textarea rows="10" required></textarea>
-            <label>Please Write Your Message Here..</label>
-          </div>
-          <button class="btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" stroke-width="1.5"
-              viewBox="0 0 24 24" color="#000000">
-              <g stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                clip-path="url(#send-diagonal_svg__a)">
-                <path d="M22.152 3.553 11.178 21.004l-1.67-8.596L2 7.898l20.152-4.345ZM9.456 12.444l12.696-8.89">
+            <div class="form-control">
+              <textarea rows="10" required></textarea>
+              <label>Please Write Your Message Here..</label>
+            </div>
+            <button class="btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" stroke-width="1.5"
+                viewBox="0 0 24 24" color="#000000">
+                <g stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  clip-path="url(#send-diagonal_svg__a)">
+                  <path d="M22.152 3.553 11.178 21.004l-1.67-8.596L2 7.898l20.152-4.345ZM9.456 12.444l12.696-8.89">
+                  </path>
+                </g>
+                <defs>
+                  <clipPath id="send-diagonal_svg__a">
+                    <path fill="#fff" d="M0 0h24v24H0z"></path>
+                  </clipPath>
+                </defs>
+              </svg>
+              <!-- <span class="d-block">Send</span> -->
+            </button>
+          </form>
+        </div>
+
+        <div class="contact-media">
+
+          <div class="card2">
+            <img class="user-bio-image-128 round-bordered" src="images/Profil_Bild.jpg" alt="user" />
+            <h3>Fatih Tanriver</h3>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" stroke-width="1.5"
+                viewBox="0 0 24 24" color="#000000">
+                <path stroke="#000000" stroke-width="1.5" d="M20 10c0 4.418-8 12-8 12s-8-7.582-8-12a8 8 0 1 1 16 0Z">
                 </path>
-              </g>
-              <defs>
-                <clipPath id="send-diagonal_svg__a">
-                  <path fill="#fff" d="M0 0h24v24H0z"></path>
-                </clipPath>
-              </defs>
-            </svg>
-            <!-- <span class="d-block">Send</span> -->
-          </button>
-        </form>
-      </div>
+                <path fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 11a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
+              </svg>
+              <span>Darmstadt</span>
+            </div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" stroke-width="1.5"
+                viewBox="0 0 24 24" color="#000000">
+                <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  d="m9 9 4.5 3L18 9M3 13.5h2M1 10.5h4"></path>
+                <path stroke="#000000" stroke-width="1.5" stroke-linecap="round"
+                  d="M5 7.5V7a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-.5"></path>
+              </svg>
+              <span>dev.fthtnrvr@gmail.com</span>
+            </div>
 
-      <div class="contact-media">
+            <p>User interface designer and <br /> front-end developer</p>
+            <!-- <div class="buttons">
+        <button class="primary">
+          Message
+        </button>
+        <button class="primary ghost">
+          Following
+        </button>
+      </div> -->
+            <div class="skills">
+              <h6>Skills</h6>
+              <ul>
+                <li>
+                  <a title="twitter" href="https://www.google.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="white" viewBox="0 0 256 256">
+                      <path
+                        d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z">
+                      </path>
+                    </svg>
+                  </a>
+                </li>
+                <li><a title="linkedin" href="https://www.google.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="white" viewBox="0 0 256 256">
+                      <path
+                        d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z">
+                      </path>
+                    </svg>
+                  </a></li>
+                <li><a title="xing" href="https://www.google.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                      viewBox="426.896 102.499 170.207 200">
+                      <path
+                        d="M442.394 142c-1.736 0-3.197.61-3.934 1.803-.76 1.231-.645 2.818.166 4.424l19.503 33.761c.033.064.033.105 0 .164l-30.648 54.084c-.799 1.592-.76 3.191 0 4.425.736 1.187 2.033 1.966 3.771 1.966h28.844c4.312 0 6.393-2.91 7.867-5.57 0 0 29.973-53.01 31.14-55.068-.118-.19-19.83-34.58-19.83-34.58-1.439-2.557-3.606-5.41-8.03-5.41h-28.849z"
+                        fill="#005a5f" />
+                      <path
+                        d="M563.574 102.501c-4.309 0-6.176 2.714-7.723 5.494 0 0-62.14 110.2-64.188 113.818.105.196 40.984 75.191 40.984 75.191 1.432 2.558 3.641 5.494 8.06 5.494h28.81c1.738 0 3.096-.654 3.828-1.843.77-1.23.748-2.857-.059-4.458l-40.664-74.295a.167.167 0 0 1 0-.189l63.863-112.92c.803-1.594.82-3.22.061-4.452-.736-1.188-2.098-1.843-3.836-1.843h-29.139v.002h.003z"
+                        fill="#d4d600" />
+                    </svg>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
 
-        <div class="card2">
-          <img class="user-bio-image-128 round-bordered" src="images/Profil_Bild.jpg" alt="user" />
-          <h3>Fatih Tanriver</h3>
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" stroke-width="1.5"
-              viewBox="0 0 24 24" color="#000000">
-              <path stroke="#000000" stroke-width="1.5" d="M20 10c0 4.418-8 12-8 12s-8-7.582-8-12a8 8 0 1 1 16 0Z">
-              </path>
-              <path fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="M12 11a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
-            </svg>
-            <span>Darmstadt</span>
-          </div>
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" stroke-width="1.5"
-              viewBox="0 0 24 24" color="#000000">
-              <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                d="m9 9 4.5 3L18 9M3 13.5h2M1 10.5h4"></path>
-              <path stroke="#000000" stroke-width="1.5" stroke-linecap="round"
-                d="M5 7.5V7a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-.5"></path>
-            </svg>
-            <span>dev.fthtnrvr@gmail.com</span>
-          </div>
-
-          <p>User interface designer and <br /> front-end developer</p>
-          <!-- <div class="buttons">
-            <button class="primary">
-              Message
-            </button>
-            <button class="primary ghost">
-              Following
-            </button>
-          </div> -->
-          <div class="skills">
-            <h6>Skills</h6>
-            <ul>
-              <li>UI / UX</li>
-              <li>Front End Development</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node</li>
-            </ul>
-          </div>
         </div>
 
       </div>
+
 
 
     </section>
