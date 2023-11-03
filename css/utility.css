@@ -12,7 +12,7 @@
 }
 
 .d-block {
-  display: block;
+  display: block !important;
 }
 
 .flex-col-cn {

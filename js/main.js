@@ -139,7 +139,18 @@ $(document).ready(function () {
 
   /* Start Choronology*/
   $(".target, .menu").click(function () {
+    let clickedId = this.id;
+
     $(".menu").toggle();
+    if (clickedId == "") {
+      return;
+    }
+
+    $(".overlay-info").removeClass("d-block");
+
+    let overlaySel = `.${clickedId.replace("radial", "overlay")}`;
+
+    $(overlaySel).addClass("d-block");
   });
   /* End Choronology*/
 
