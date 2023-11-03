@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/utility.css" />
   <link rel="stylesheet" href="css/mediaQueries.css" />
   <link rel="stylesheet" href="css/switcher.css" />
+  <link rel="stylesheet" href="css/navRads.css" />
   <link rel="stylesheet" href="css/timeline.css" />
   <link rel="stylesheet" href="css/radialAnimation.css" />
   <link rel="stylesheet" href="css/contactPage.css" />
@@ -433,8 +434,8 @@
             </div>
 
             <div class="form-control">
-              <input type="password" required>
-              <label>Password</label>
+              <input type="text" required>
+              <label>First Name</label>
             </div>
 
             <div class="form-control">
@@ -541,62 +542,65 @@
     <h2>Footer Section</h2>
   </footer>
 
-  <div class="navRad left-bottom">
+  <div class="navRadContainer">
+    <div class="navRad left-bottom">
+      <button class="navRad-item navRad-count-1 brdr-0">
+        <img class="flag-sm" src="images/flags/star-turkey.png" alt="Flag Turkey" onclick="changeLanguage('tr')">
+      </button>
+      <button class=" navRad-item navRad-count-2 brdr-0">
+        <img class="flag-sm" src="images/flags/star-usa.png" alt="Flag USA" onclick="changeLanguage('en')">
+      </button>
+      <button class=" navRad-item navRad-count-3 brdr-0">
+        <img class="flag-sm" src="images/flags/star-spain.png" alt="Flag Spain" onclick="changeLanguage('es')">
+      </button>
+      <button class="navRad-item navRad-count-4 brdr-0">
+        <img class="flag-sm" src="images/flags/star-germany.png" alt="Flag Germany" onclick="changeLanguage('de')">
+      </button>
 
-    <button class="navRad-item navRad-count-1 brdr-0">
-      <img class="flag-sm" src="images/flags/star-turkey.png" alt="Flag Turkey" onclick="changeLanguage('tr')">
-    </button>
-    <button class=" navRad-item navRad-count-2 brdr-0">
-      <img class="flag-sm" src="images/flags/star-usa.png" alt="Flag USA" onclick="changeLanguage('en')">
-    </button>
-    <button class=" navRad-item navRad-count-3 brdr-0">
-      <img class="flag-sm" src="images/flags/star-spain.png" alt="Flag Spain" onclick="changeLanguage('es')">
-    </button>
-    <button class="navRad-item navRad-count-4 brdr-0">
-      <img class="flag-sm" src="images/flags/star-germany.png" alt="Flag Germany" onclick="changeLanguage('de')">
-    </button>
+      <button id="language-button" class="mask brdr-0"><img class="flag-sm" src="images/flags/star-germany.png"
+          alt=""></button>
+    </div>
 
-    <button id="language-button" class="mask brdr-0"><img class="flag-sm" src="images/flags/star-germany.png"
-        alt=""></button>
+    <div class="navRad right-bottom">
+      <button class="theme-pie-chart-container navRad-item navRad-count-1 brdr-0 active"
+        onclick="changePalette('palette-1',this)">
+        <div class="theme-pie-chart palette-1">
+          <div class="slice1 theme-pie-circle animate"></div>
+          <div class="slice2 theme-pie-circle animate"></div>
+          <div class="slice3 theme-pie-circle animate"></div>
+          <div class="slice4 theme-pie-circle animate"></div>
+          <div class="slice5 theme-pie-circle animate"></div>
+          <div class="slice6 theme-pie-circle animate"></div>
+        </div><span class="d-none">Profile</span>
+      </button>
+      <button class="theme-pie-chart-container navRad-item navRad-count-2 brdr-0"
+        onclick="changePalette('palette-2',this)">
+        <div class="theme-pie-chart palette-2">
+          <div class="slice1 theme-pie-circle animate"></div>
+          <div class="slice2 theme-pie-circle animate"></div>
+          <div class="slice3 theme-pie-circle animate"></div>
+          <div class="slice4 theme-pie-circle animate"></div>
+          <div class="slice5 theme-pie-circle animate"></div>
+          <div class="slice6 theme-pie-circle animate"></div>
+        </div><span class="d-none">Profile</span><span class="d-none">Compose</span>
+      </button>
+      <button class="theme-pie-chart-container navRad-item navRad-count-3 brdr-0"
+        onclick="changePalette('palette-3', this)">
+        <div class="theme-pie-chart palette-3">
+          <div class="slice1 theme-pie-circle animate"></div>
+          <div class="slice2 theme-pie-circle animate"></div>
+          <div class="slice3 theme-pie-circle animate"></div>
+          <div class="slice4 theme-pie-circle animate"></div>
+          <div class="slice5 theme-pie-circle animate"></div>
+          <div class="slice6 theme-pie-circle animate"></div>
+        </div><span class="d-none">Profile</span><span class="d-none">Chats</span>
+      </button>
+
+      <button class="mask brdr-0"><img class="palette-sm" src="images/icons/color-palette-48-A.png" alt=""></button>
+    </div>
   </div>
 
-  <div class="navRad right-bottom">
-    <button class="theme-pie-chart-container navRad-item navRad-count-1 brdr-0 active"
-      onclick="changePalette('palette-1',this)">
-      <div class="theme-pie-chart palette-1">
-        <div class="slice1 theme-pie-circle animate"></div>
-        <div class="slice2 theme-pie-circle animate"></div>
-        <div class="slice3 theme-pie-circle animate"></div>
-        <div class="slice4 theme-pie-circle animate"></div>
-        <div class="slice5 theme-pie-circle animate"></div>
-        <div class="slice6 theme-pie-circle animate"></div>
-      </div><span class="d-none">Profile</span>
-    </button>
-    <button class="theme-pie-chart-container navRad-item navRad-count-2 brdr-0"
-      onclick="changePalette('palette-2',this)">
-      <div class="theme-pie-chart palette-2">
-        <div class="slice1 theme-pie-circle animate"></div>
-        <div class="slice2 theme-pie-circle animate"></div>
-        <div class="slice3 theme-pie-circle animate"></div>
-        <div class="slice4 theme-pie-circle animate"></div>
-        <div class="slice5 theme-pie-circle animate"></div>
-        <div class="slice6 theme-pie-circle animate"></div>
-      </div><span class="d-none">Profile</span><span class="d-none">Compose</span>
-    </button>
-    <button class="theme-pie-chart-container navRad-item navRad-count-3 brdr-0"
-      onclick="changePalette('palette-3', this)">
-      <div class="theme-pie-chart palette-3">
-        <div class="slice1 theme-pie-circle animate"></div>
-        <div class="slice2 theme-pie-circle animate"></div>
-        <div class="slice3 theme-pie-circle animate"></div>
-        <div class="slice4 theme-pie-circle animate"></div>
-        <div class="slice5 theme-pie-circle animate"></div>
-        <div class="slice6 theme-pie-circle animate"></div>
-      </div><span class="d-none">Profile</span><span class="d-none">Chats</span>
-    </button>
 
-    <button class="mask brdr-0"><img class="palette-sm" src="images/icons/color-palette-48-A.png" alt=""></button>
-  </div>
 
   <script src="js/jquery-3.7.1.min.js"></script>
   <script src="js/main.js"></script>
