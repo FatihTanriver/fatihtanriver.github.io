@@ -196,4 +196,7 @@
 }
 
 @media screen and (max-width: 600px) {
+  .contact-wrapper {
+    padding: 2rem;
+  }
 }
