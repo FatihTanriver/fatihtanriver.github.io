@@ -145,9 +145,22 @@
     </section>
     <section id="section2" class="mainSection">
 
-      <h2>About</h2>
-      <!-- <pre class="mermaid">
-        </pre> -->
+      <h3>Software developer specializing in front-end development and web project management</h3>
+
+      <p>
+        I am a seasoned Software developer with a strong focus on frontend development. I specialize in web project
+        development using C#, MVC, .NET, NHibernate, Spring .NET, Oracle, and MSSQL, while also excelling in frontend
+        technologies. I have extensive experience building responsive designs, utilizing SASS and LESS for efficient
+        styling, and implementing various JavaScript libraries like DevExtreme and Fullpage.js for dynamic data
+        visualization. My commitment to staying current in the field is evident through my ongoing learning journey with
+        Vue.js. Beyond frontend expertise, I bring a wealth of knowledge in GUI implementation, workflow optimization,
+        automated testing, code quality checks, and version control using GIT, SVN, and TortoiseGIT. My project
+        management skills include using JIRA, Confluence, and Bitbucket, and I have successfully implemented CI/CD
+        processes with GitLab and Jenkins. I have also led projects, ensuring compatibility, managing technical
+        concepts, documentation, and project execution. Furthermore, I have mentored junior developers, assigning tasks,
+        conducting code reviews, and facilitating project monitoring meetings, thereby ensuring a comprehensive approach
+        to software development.
+      </p>
 
     </section>
     <!-- <section id="section3" class="mainSection">
@@ -291,7 +304,7 @@
         <div class="logo">
           <div class="logo-container">
             <?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="128px" height="128px"
-              fill="pink" stroke-width="1.5" viewBox="0 0 24 24" color="#000000">
+              fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="#000000">
               <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
                 d="M21 9v6M3 15V9M12 21v-6M12 3v6M12 15 3 9l9-6 9 6-9 6Z"></path>
               <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
@@ -300,14 +313,16 @@
           </div>
         </div>
 
-        <div class="inner"></div>
+        <div class="inner">
+
+        </div>
 
         <div class="middle dots">
-          <div class="dot">
+          <div class="dot" data-icon="radial-frontend">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
               <rect width="256" height="256" fill="none" />
               <rect x="136" y="104" width="128" height="80" rx="16" transform="translate(344 -56) rotate(90)"
-                fill="yellow" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
+                fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
               <line x1="128" y1="208" x2="88" y2="208" fill="none" stroke="currentColor" stroke-linecap="round"
                 stroke-linejoin="round" stroke-width="16" />
               <path d="M160,176H40a16,16,0,0,1-16-16V64A16,16,0,0,1,40,48H184a16,16,0,0,1,16,16V80" fill="none"
@@ -316,8 +331,8 @@
                 stroke-linejoin="round" stroke-width="16" />
             </svg>
           </div>
-          <div class="dot">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" fill="green" stroke-width="1.5"
+          <div class="dot" data-icon="radial-backend">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" fill="none" stroke-width="1.5"
               viewBox="0 0 24 24" color="#000000">
               <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
                 d="M4 6v6s0 3 7 3 7-3 7-3V6"></path>
@@ -329,8 +344,8 @@
         </div>
 
         <div class="outer dots">
-          <div class="dot">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" fill="blue" stroke-width="1.5"
+          <div class="dot" data-icon="radial-coding">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" fill="none" stroke-width="1.5"
               viewBox="0 0 24 24" color="#000000">
               <path stroke="#000000" stroke-width="1.5"
                 d="M3.2 14.222V4a2 2 0 0 1 2-2h13.6a2 2 0 0 1 2 2v10.222m-17.6 0h17.6m-17.6 0-1.48 5.234A2 2 0 0 0 3.644 22h16.712a2 2 0 0 0 1.924-2.544l-1.48-5.234">
@@ -339,7 +354,7 @@
                 d="M11 19h2M14 6l2 2-2 2M10 6 8 8l2 2"></path>
             </svg>
           </div>
-          <div class="dot">
+          <div class="dot" data-icon="radial-tools">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
               <rect width="256" height="256" fill="none" />
               <path
@@ -422,7 +437,7 @@
         <div class="contact-direct">
           <form>
             <div class="form-control">
-              <input type="text" required>
+              <input type="text" required aria-label="Email text input">
               <label>Email</label>
               <!-- <label>
             <span style="transition-delay: 0ms">E</span>
@@ -434,15 +449,15 @@
             </div>
 
             <div class="form-control">
-              <input type="text" required>
+              <input type="text" required aria-label="Message Subject Input">
               <label>Subject</label>
             </div>
 
             <div class="form-control">
-              <textarea rows="10" required></textarea>
+              <textarea rows="10" required aria-label="Message Content Input"></textarea>
               <label>Please Write Your Message Here..</label>
             </div>
-            <button class="btn">
+            <button class="btn" aria-label="Send Message">
               <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" stroke-width="1.5"
                 viewBox="0 0 24 24" color="#000000">
                 <g stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
@@ -544,26 +559,26 @@
 
   <div class="navRadContainer">
     <div class="navRad left-bottom">
-      <button class="navRad-item navRad-count-1 brdr-0">
+      <button id="language-turkish" class="navRad-item navRad-count-1 brdr-0" aria-label="Change Language to Turkish">
         <img class="flag-sm" src="images/flags/star-turkey.png" alt="Flag Turkey" onclick="changeLanguage('tr')">
       </button>
-      <button class=" navRad-item navRad-count-2 brdr-0">
+      <button id="language-english" class=" navRad-item navRad-count-2 brdr-0" aria-label="Change Language to English">
         <img class="flag-sm" src="images/flags/star-usa.png" alt="Flag USA" onclick="changeLanguage('en')">
       </button>
-      <button class=" navRad-item navRad-count-3 brdr-0">
+      <button id="language-spanish" class=" navRad-item navRad-count-3 brdr-0" aria-label="Change Language to Spain">
         <img class="flag-sm" src="images/flags/star-spain.png" alt="Flag Spain" onclick="changeLanguage('es')">
       </button>
-      <button class="navRad-item navRad-count-4 brdr-0">
+      <button id="language-german" class="navRad-item navRad-count-4 brdr-0" aria-label="Change Language to German">
         <img class="flag-sm" src="images/flags/star-germany.png" alt="Flag Germany" onclick="changeLanguage('de')">
       </button>
 
-      <button id="language-button" class="mask brdr-0"><img class="flag-sm" src="images/flags/star-germany.png"
-          alt=""></button>
+      <button id="language-button" class="mask brdr-0" aria-label="Change Language to Germany"><img class="flag-sm"
+          src="images/flags/star-germany.png" alt="Flag Germany"></button>
     </div>
 
     <div class="navRad right-bottom">
       <button class="theme-pie-chart-container navRad-item navRad-count-1 brdr-0 active"
-        onclick="changePalette('palette-1',this)">
+        onclick="changePalette('palette-1',this)" aria-label="Change Color Palette to Palette1">
         <div class="theme-pie-chart palette-1">
           <div class="slice1 theme-pie-circle animate"></div>
           <div class="slice2 theme-pie-circle animate"></div>
@@ -574,7 +589,7 @@
         </div><span class="d-none">Profile</span>
       </button>
       <button class="theme-pie-chart-container navRad-item navRad-count-2 brdr-0"
-        onclick="changePalette('palette-2',this)">
+        onclick="changePalette('palette-2',this)" aria-label="Change Color Palette to Palette1">
         <div class="theme-pie-chart palette-2">
           <div class="slice1 theme-pie-circle animate"></div>
           <div class="slice2 theme-pie-circle animate"></div>
@@ -585,7 +600,7 @@
         </div><span class="d-none">Profile</span><span class="d-none">Compose</span>
       </button>
       <button class="theme-pie-chart-container navRad-item navRad-count-3 brdr-0"
-        onclick="changePalette('palette-3', this)">
+        onclick="changePalette('palette-3', this)" aria-label="Change Color Palette to Palette1">
         <div class="theme-pie-chart palette-3">
           <div class="slice1 theme-pie-circle animate"></div>
           <div class="slice2 theme-pie-circle animate"></div>
@@ -596,11 +611,10 @@
         </div><span class="d-none">Profile</span><span class="d-none">Chats</span>
       </button>
 
-      <button class="mask brdr-0"><img class="palette-sm" src="images/icons/color-palette-48-A.png" alt=""></button>
+      <button class="mask brdr-0" aria-label="Default Color Palette equal to Palette1"><img class="palette-sm"
+          src="images/icons/color-palette-48-A.png" alt=""></button>
     </div>
   </div>
-
-
 
   <script src="js/jquery-3.7.1.min.js"></script>
   <script src="js/main.js"></script>

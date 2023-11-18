@@ -23,7 +23,7 @@
 }
 
 [data-theme="night"] {
-  --txt-clr1: #f3f7f6;
+  --txt-clr1: #fff;
   --link-clr1: #ffcc00;
 }
 
@@ -121,7 +121,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(59, 62, 64, 0.5);
+  background-color: rgba(59, 62, 64, 0.6);
   transition: all 0.5s ease-in-out;
 }
 
@@ -297,6 +297,7 @@ footer {
   align-items: center;
   max-width: 100vw;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /*--Main Section1 Specific (Start)*/

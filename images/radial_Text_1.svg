@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="340"
+   height="340"
+   viewBox="0 0 340 340"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="radial_Text_1.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1605"
+     inkscape:window-height="970"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="0.69411765"
+     inkscape:cx="170"
+     inkscape:cy="170"
+     inkscape:window-x="0"
+     inkscape:window-y="110"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg14" />
+  <defs
+     id="defs7">
+    <style
+       id="style2">.a{clip-path:url(#b);}.b{fill:#6b6f72;}</style>
+    <clipPath
+       id="b">
+      <rect
+         width="340"
+         height="340"
+         id="rect4" />
+    </clipPath>
+    <path
+       id="curve"
+       d="m 725.44562,86.859672 c 59.4753,21.468198 110.6929,96.579928 78.3756,177.459858 -33.4396,83.63189 -127.4144,106.84416 -191.89006,71.12802"
+       inkscape:connector-curvature="0"
+       style="fill:#eef4d7;stroke-width:0.87720609"
+       sodipodi:nodetypes="ccc" />
+  </defs>
+  <text
+     transform="matrix(1.0629436,0,0,1.0629436,-547.89555,-63.515244)"
+     width="500"
+     id="text5">
+    <textPath
+       xlink:href="#curve"
+       id="textPath3"
+       style="font-size:24px;fill:#666666">Backend | Frontend | Coding | Tools</textPath>
+  </text>
+</svg>

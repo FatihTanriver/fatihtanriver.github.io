@@ -1,5 +1,5 @@
 #section4 {
-  --radius1: 15rem;
+  --radius1: 13rem;
 }
 
 #allSkills.container {
@@ -30,8 +30,7 @@
   top: calc(1.5 * var(--radius1));
   width: calc(2.4 * var(--radius1));
   height: calc(2.4 * var(--radius1));
-  background: url(https://www.designeinheit.de/kunden/mm/text_kreislauf.svg)
-    center center;
+  background: url(../images/radial_Text_1.svg) center center;
   background-size: contain;
   animation: rotate 30s reverse linear infinite;
 }
