@@ -430,50 +430,48 @@
       </div> <!-- .container --->
     </section>
     <section id="section5" class="mainSection">
-
-      <!--<h2>Contact Info</h2> -->
       <div class="contact-wrapper">
-
         <div class="contact-direct">
-          <form>
+
+          <form id="myForm">
+            <div class="field">
+              <label for="to_name">to_name</label>
+              <input type="text" name="to_name" id="to_name">
+            </div>
+            <div class="field">
+              <label for="from_name">from_name</label>
+              <input type="text" name="from_name" id="from_name">
+            </div>
+            <div class="field">
+              <label for="message">message</label>
+              <input type="text" name="message" id="message">
+            </div>
+            <div class="field">
+              <label for="reply_to">reply_to</label>
+              <input type="text" name="reply_to" id="reply_to">
+            </div>
+
+            <input type="submit" id="button" value="Send Email">
+          </form>
+
+          <!-- <form id="myForm">
             <div class="form-control">
-              <input type="text" required aria-label="Email text input">
+              <input type="email" required aria-label="Email text input" name="email">
               <label>Email</label>
-              <!-- <label>
-            <span style="transition-delay: 0ms">E</span>
-              <span style="transition-delay: 50ms">m</span>
-              <span style="transition-delay: 100ms">a</span>
-              <span style="transition-delay: 150ms">i</span>
-              <span style="transition-delay: 200ms">l</span>
-        </label> -->
             </div>
 
             <div class="form-control">
-              <input type="text" required aria-label="Message Subject Input">
+              <input type="text" required aria-label="Message Subject Input" name="subject">
               <label>Subject</label>
             </div>
 
             <div class="form-control">
-              <textarea rows="10" required aria-label="Message Content Input"></textarea>
+              <textarea rows="10" required aria-label="Message Content Input" name="message"></textarea>
               <label>Please Write Your Message Here..</label>
             </div>
-            <button class="btn" aria-label="Send Message">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" stroke-width="1.5"
-                viewBox="0 0 24 24" color="#000000">
-                <g stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                  clip-path="url(#send-diagonal_svg__a)">
-                  <path d="M22.152 3.553 11.178 21.004l-1.67-8.596L2 7.898l20.152-4.345ZM9.456 12.444l12.696-8.89">
-                  </path>
-                </g>
-                <defs>
-                  <clipPath id="send-diagonal_svg__a">
-                    <path fill="#fff" d="M0 0h24v24H0z"></path>
-                  </clipPath>
-                </defs>
-              </svg>
-              <!-- <span class="d-block">Send</span> -->
-            </button>
-          </form>
+
+            <button type="submit" class="btn" aria-label="Send Message">Send</button>
+          </form> -->
         </div>
 
         <div class="contact-media">
@@ -554,7 +552,7 @@
   </main>
 
   <footer>
-    <h2>Footer Section</h2>
+    <p>All rights reserved ®2023</p>
   </footer>
 
   <div class="navRadContainer">
@@ -618,6 +616,11 @@
 
   <script src="js/jquery-3.7.1.min.js"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('abv1oLwXi-_rYfilT')
+  </script>
 </body>
 
 </html>

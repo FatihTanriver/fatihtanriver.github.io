@@ -166,6 +166,32 @@ $(document).ready(function () {
   });
 
   /*End Contact*/
+
+  /*Start Email*/
+
+  $("#myForm").submit(function (event) {
+    event.preventDefault();
+
+    $("#button").val("Sending...");
+
+    const serviceID = 'abv1oLwXi-_rYfilT';
+    const templateID = 'template_1hsw3jr';
+
+    const form = this; // Get a reference to the form element
+
+    emailjs
+      .sendForm(serviceID, templateID, form)
+      .then(function () {
+        $("#button").val("Send Email");
+        alert("Sent!");
+      })
+      .catch(function (err) {
+        $("#button").val("Send Email");
+        alert(JSON.stringify(err));
+      });
+  });
+
+  /*End Email*/
 });
 
 let langFlags = {
