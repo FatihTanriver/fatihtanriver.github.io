@@ -427,51 +427,41 @@
           </div>
         </div>
 
-      </div> <!-- .container --->
+      </div>
     </section>
     <section id="section5" class="mainSection">
       <div class="contact-wrapper">
         <div class="contact-direct">
-
           <form id="myForm">
-            <div class="field">
-              <label for="to_name">to_name</label>
-              <input type="text" name="to_name" id="to_name">
-            </div>
-            <div class="field">
-              <label for="from_name">from_name</label>
-              <input type="text" name="from_name" id="from_name">
-            </div>
-            <div class="field">
-              <label for="message">message</label>
-              <input type="text" name="message" id="message">
-            </div>
-            <div class="field">
-              <label for="reply_to">reply_to</label>
-              <input type="text" name="reply_to" id="reply_to">
-            </div>
-
-            <input type="submit" id="button" value="Send Email">
-          </form>
-
-          <!-- <form id="myForm">
             <div class="form-control">
-              <input type="email" required aria-label="Email text input" name="email">
-              <label>Email</label>
+              <input type="email" required aria-label="Email text input" name="from_name" id="from_name">
+              <label for="from_name">Email</label>
+            </div>
+
+            <div class="form-control d-none">
+              <input type="email" required aria-label="Email text input" name="reply_to" id="reply_to"
+                value="contact.ftanriver@gmail.com">
+              <label for="reply_to">Email</label>
+            </div>
+
+            <div class="form-control d-none">
+              <input type="email" required aria-label="Email text input" name="to_name" id="to_name"
+                value="contact.ftanriver@gmail.com">
+              <label for="to_name">Email</label>
             </div>
 
             <div class="form-control">
-              <input type="text" required aria-label="Message Subject Input" name="subject">
-              <label>Subject</label>
+              <input type="text" required aria-label="Message Subject Input" name="subject_text" id="subject_text">
+              <label for="subject_text">Subject</label>
             </div>
 
             <div class="form-control">
-              <textarea rows="10" required aria-label="Message Content Input" name="message"></textarea>
-              <label>Please Write Your Message Here..</label>
+              <textarea rows="10" required aria-label="Message Content Input" name="message" id="message"></textarea>
+              <label for="message">Please Write Your Message Here..</label>
             </div>
 
             <button type="submit" class="btn" aria-label="Send Message">Send</button>
-          </form> -->
+          </form>
         </div>
 
         <div class="contact-media">

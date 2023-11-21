@@ -95,6 +95,10 @@
   transform: translateY(-30px);
 }
 
+.contact-direct form .form-control textarea {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 /* Start Card2 */
 
 .card2 {

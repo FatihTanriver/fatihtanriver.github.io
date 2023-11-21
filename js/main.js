@@ -169,16 +169,21 @@ $(document).ready(function () {
 
   /*Start Email*/
 
+  emailjs.init("abv1oLwXi-_rYfilT");
   $("#myForm").submit(function (event) {
     event.preventDefault();
 
     $("#button").val("Sending...");
 
-    const serviceID = 'abv1oLwXi-_rYfilT';
-    const templateID = 'template_1hsw3jr';
+    const serviceID = "service_bvxjeq8";
+    const templateID = "template_1hsw3jr";
+
+    // from_name must be set to reply_to
+    const replyToInput = $("#reply_to");
+    const fromNameInput = $("#from_name");
+    replyToInput.val(fromNameInput.val());
 
     const form = this; // Get a reference to the form element
-
     emailjs
       .sendForm(serviceID, templateID, form)
       .then(function () {
