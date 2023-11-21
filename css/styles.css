@@ -1367,6 +1367,7 @@ footer {
   font-size: 1.6rem;
   font-style: italic;
   line-height: 1.5em;
+  color: var(--txt-clr1);
 }
 
 .direction-r .desc {
@@ -1444,6 +1445,7 @@ footer {
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    color: var(--txt-clr1);
     z-index: 15;
   }
   .direction-l .desc,
@@ -1523,7 +1525,7 @@ footer {
   width: 100%;
   padding: 15px 0;
   font-size: 18px;
-  color: #fff;
+  color: var(--txt-clr1);
 }
 
 .contact-direct .form-control textarea:focus,
@@ -1539,6 +1541,7 @@ footer {
   top: 15px;
   left: 0;
   pointer-events: none;
+  color: var(--txt-clr1);
 }
 
 .contact-direct .form-control label span {

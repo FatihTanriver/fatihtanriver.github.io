@@ -62,7 +62,7 @@
   width: 100%;
   padding: 15px 0;
   font-size: 18px;
-  color: #fff;
+  color: var(--txt-clr1);
 }
 
 .contact-direct .form-control textarea:focus,
@@ -78,6 +78,7 @@
   top: 15px;
   left: 0;
   pointer-events: none;
+  color: var(--txt-clr1);
 }
 
 .contact-direct .form-control label span {

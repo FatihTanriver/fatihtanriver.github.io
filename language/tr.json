@@ -20,5 +20,9 @@
   "timeline_entity_desc_5": "Bir yıl boyunca öğrenci geliştirici olarak çalıştım, programlama dili olarak C# ve ORM olarak NHibernate kullanarak MVC ve WinForm projelerine katıldım.",
   "timeline_entity_desc_6": "Yüksek lisans tezim için R işlevselliğini bir C# MVC web projesine entegre ettim. Çok boyutlu veri yapıları aracılığıyla çoklu dizileri ve veri çerçevelerini işlemeyi içeren R kullanarak hesaplama modelleri geliştirdim.",
   "timeline_entity_desc_7": "Birincil rolüm, C#, MVC, Bootstrap ve Fullpage.js kullanarak dinamik, duyarlı web sayfaları oluşturma ve geliştirme konusunda uzmanlaşarak web geliştirmeye odaklandı. Ayrıca kısa bir süre gömülü sistem yazılımlarının test edilmesinde de çalıştım.",
-  "timeline_entity_desc_8": "Öncelikle çeşitli C# MVC projeleri üzerinde çalıştım, hem arka uç hem de ön uçla ilgilenme geliştirme. GUI uygulaması, karmaşık veri görselleştirme ve iş akışı optimizasyonu konularında uzmanlaştım. Bu süre zarfında teknik kavramlar, dokümantasyon ve proje yönetimi konularında deneyim kazandım. Ayrıca Birim, Entegrasyon ve Uçtan Uca testler de dahil olmak üzere çeşitli test türlerini gerçekleştirmiştir."
+  "timeline_entity_desc_8": "Öncelikle çeşitli C# MVC projeleri üzerinde çalıştım, hem arka uç hem de ön uçla ilgilenme geliştirme. GUI uygulaması, karmaşık veri görselleştirme ve iş akışı optimizasyonu konularında uzmanlaştım. Bu süre zarfında teknik kavramlar, dokümantasyon ve proje yönetimi konularında deneyim kazandım. Ayrıca Birim, Entegrasyon ve Uçtan Uca testler de dahil olmak üzere çeşitli test türlerini gerçekleştirmiştir.",
+  "message_form_mail": "E-posta",
+  "message_form_subject": "Konu",
+  "message_form_body": "Lütfen Mesajınızı Buraya Yazınız...",
+  "message_form_send": "Gönder"
 }

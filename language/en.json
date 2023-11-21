@@ -20,5 +20,9 @@
   "timeline_entity_desc_5": "I worked as a student developer for one year, participating in MVC and WinForm projects using C# as the programming language and NHibernate as the ORM",
   "timeline_entity_desc_6": "For my master's thesis, I integrated R functionality into a C# MVC web project. I developed calculation models using R, which involved handling multiarrays and dataframes through multidimensional data structures.",
   "timeline_entity_desc_7": "My primary role focused on web development, specializing in creating and enhancing dynamic, responsive web pages using C#, MVC, Bootstrap, and Fullpage.js. I also briefly worked in testing embedded system software",
-  "timeline_entity_desc_8": "I primarily worked on various C# MVC projects, handling both backend and frontend development. I specialized in GUI implementation, complex data visualization, and workflow optimization.During this time, I gained experience in technical concepts, documentation, and project management. I also conducted various types of testing, including Unit, Integration, and End-to-End testing."
+  "timeline_entity_desc_8": "I primarily worked on various C# MVC projects, handling both backend and frontend development. I specialized in GUI implementation, complex data visualization, and workflow optimization.During this time, I gained experience in technical concepts, documentation, and project management. I also conducted various types of testing, including Unit, Integration, and End-to-End testing.",
+  "message_form_mail": "Email",
+  "message_form_subject": "Subject",
+  "message_form_body": "Please Write Your Message Here..",
+  "message_form_send": "Send"
 }

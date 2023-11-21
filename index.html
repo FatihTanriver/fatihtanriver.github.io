@@ -436,7 +436,7 @@
           <form id="myForm">
             <div class="form-control">
               <input type="email" required aria-label="Email text input" name="from_name" id="from_name">
-              <label for="from_name">Email</label>
+              <label for="from_name" data-lang="message_form_mail">Email</label>
             </div>
 
             <div class="form-control d-none">
@@ -453,15 +453,15 @@
 
             <div class="form-control">
               <input type="text" required aria-label="Message Subject Input" name="subject_text" id="subject_text">
-              <label for="subject_text">Subject</label>
+              <label for="subject_text" data-lang="message_form_subject">Subject</label>
             </div>
 
             <div class="form-control">
               <textarea rows="10" required aria-label="Message Content Input" name="message" id="message"></textarea>
-              <label for="message">Please Write Your Message Here..</label>
+              <label for="message" data-lang="message_form_body">Please Write Your Message Here..</label>
             </div>
 
-            <button type="submit" class="btn" aria-label="Send Message">Send</button>
+            <button type="submit" class="btn" aria-label="Send Message" data-lang="message_form_send">Send</button>
           </form>
         </div>
 

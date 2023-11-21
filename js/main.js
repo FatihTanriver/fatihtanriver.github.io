@@ -156,14 +156,7 @@ $(document).ready(function () {
 
   /*Start Contact*/
 
-  $(".contact-direct .form-control label").each(function () {
-    var $label = $(this);
-    var text = $label.text();
-    var letters = text.split("").map(function (letter, idx) {
-      return `<span style="transition-delay:${idx * 50}ms">${letter}</span>`;
-    });
-    $label.html(letters.join(""));
-  });
+  animateMessageFormLabel();
 
   /*End Contact*/
 
@@ -266,6 +259,17 @@ function changeLanguage(langKey) {
   $(`.icon-${langKey} img`).css("opacity", "1");
 }
 
+function animateMessageFormLabel() {
+  $(".contact-direct .form-control label").each(function () {
+    var $label = $(this);
+    var text = $label.text();
+    var letters = text.split("").map(function (letter, idx) {
+      return `<span style="transition-delay:${idx * 50}ms">${letter}</span>`;
+    });
+    $label.html(letters.join(""));
+  });
+}
+
 function setLanguage(lang) {
   localStorage.setItem("language", lang);
 }
@@ -295,6 +299,12 @@ function updateTranslations() {
   $("[data-lang=timeline_entity_desc_6]").text(language.timeline_entity_desc_6);
   $("[data-lang=timeline_entity_desc_7]").text(language.timeline_entity_desc_7);
   $("[data-lang=timeline_entity_desc_8]").text(language.timeline_entity_desc_8);
+  $("[data-lang=message_form_mail]").text(language.message_form_mail);
+  $("[data-lang=message_form_subject]").text(language.message_form_subject);
+  $("[data-lang=message_form_body]").text(language.message_form_body);
+  $("[data-lang=message_form_send]").text(language.message_form_send);
+
+  animateMessageFormLabel();
 }
 /*End Language Translation*/
 
