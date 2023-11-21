@@ -1,0 +1,32 @@
+// https://medium.com/codyhouse/create-your-design-system-part-1-typography-7c630d9092bd
+$base-font-size: 1.5rem;
+
+$font-sizes: (
+  h1: 3.2rem,
+  h2: 2.4rem,
+  h3: 1.9rem,
+  h4: 1.6rem,
+  h5: 1.5rem,
+  h6: 1.3rem,
+);
+
+@each $element, $size in $font-sizes {
+  #{$element} {
+    font-size: $size;
+  }
+}
+
+label,
+option,
+input,
+span,
+a,
+p,
+b,
+div,
+li,
+text,
+footer,
+strong {
+  font-size: $base-font-size;
+}
