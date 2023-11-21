@@ -184,15 +184,16 @@ $(document).ready(function () {
     replyToInput.val(fromNameInput.val());
 
     const form = this; // Get a reference to the form element
+
     emailjs
       .sendForm(serviceID, templateID, form)
       .then(function () {
         $("#button").val("Send Email");
-        alert("Sent!");
+        createNotification("Message Send Successfully!!", "success");
       })
       .catch(function (err) {
         $("#button").val("Send Email");
-        alert(JSON.stringify(err));
+        createNotification("Error while sending message", "error");
       });
   });
 
@@ -308,3 +309,17 @@ function changePalette(newClass, button) {
 }
 
 /*End Color Palette */
+
+function createNotification(message, type) {
+  const notif = document.createElement("div");
+  notif.classList.add("toast");
+  notif.classList.add(type);
+
+  notif.innerText = message;
+
+  toasts.appendChild(notif);
+
+  setTimeout(() => {
+    notif.remove();
+  }, 5000);
+}
