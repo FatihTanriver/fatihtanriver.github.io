@@ -96,6 +96,7 @@
 }
 
 .contact-direct form .form-control textarea {
+  resize: none;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
