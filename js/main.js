@@ -178,15 +178,33 @@ $(document).ready(function () {
 
     const form = this; // Get a reference to the form element
 
+    let toastMessage = "Message Send Successfully!!";
+    let toastErrMessage = "Error while sending message!";
+
+    if (langKey == null) {
+      langKey = localStorage.getItem("language");
+    }
+
+    if (langKey == "tr") {
+      toastMessage = "Mesaj Başarıyla Gönderildi!!";
+      toastErrMessage = "Mesaj gönderirken hata oluştu !";
+    } else if (langKey == "de") {
+      toastMessage = "Nachricht erfolgreich gesendet!!";
+      toastErrMessage = "Fehler beim Senden der Nachricht !";
+    } else if (langKey == "es") {
+      toastMessage = "¡Mensaje enviado exitosamente!!";
+      toastErrMessage = "¡Error al enviar el mensaje!";
+    }
+
     emailjs
       .sendForm(serviceID, templateID, form)
       .then(function () {
         $("#button").val("Send Email");
-        createNotification("Message Send Successfully!!", "success");
+        createNotification(toastMessage, "success");
       })
       .catch(function (err) {
         $("#button").val("Send Email");
-        createNotification("Error while sending message", "error");
+        createNotification(toastErrMessage, "error");
       });
   });
 
