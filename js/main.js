@@ -142,6 +142,11 @@ $(document).ready(function () {
     let clickedId = this.id;
 
     $(".menu").toggle();
+    let selector = "." + clickedId + "-icon";
+    let selectedIcon = $(selector).clone()[0];
+    $("#selected-radial-icon").empty();
+    $("#selected-radial-icon").append(selectedIcon);
+
     if (clickedId == "") {
       return;
     }

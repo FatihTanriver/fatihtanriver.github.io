@@ -293,7 +293,7 @@
 
         <div class="middle dots">
           <div class="dot" data-icon="radial-frontend">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+            <svg class="radial-frontend-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
               <rect width="256" height="256" fill="none" />
               <rect x="136" y="104" width="128" height="80" rx="16" transform="translate(344 -56) rotate(90)"
                 fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
@@ -306,8 +306,8 @@
             </svg>
           </div>
           <div class="dot" data-icon="radial-backend">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" fill="none" stroke-width="1.5"
-              viewBox="0 0 24 24" color="#000000">
+            <svg class="radial-backend-icon" xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" fill="none"
+              stroke-width="1.5" viewBox="0 0 24 24" color="#000000">
               <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
                 d="M4 6v6s0 3 7 3 7-3 7-3V6"></path>
               <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
@@ -319,8 +319,8 @@
 
         <div class="outer dots">
           <div class="dot" data-icon="radial-coding">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" fill="none" stroke-width="1.5"
-              viewBox="0 0 24 24" color="#000000">
+            <svg class="radial-coding-icon" xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" fill="none"
+              stroke-width="1.5" viewBox="0 0 24 24" color="#000000">
               <path stroke="#000000" stroke-width="1.5"
                 d="M3.2 14.222V4a2 2 0 0 1 2-2h13.6a2 2 0 0 1 2 2v10.222m-17.6 0h17.6m-17.6 0-1.48 5.234A2 2 0 0 0 3.644 22h16.712a2 2 0 0 0 1.924-2.544l-1.48-5.234">
               </path>
@@ -329,7 +329,7 @@
             </svg>
           </div>
           <div class="dot" data-icon="radial-tools">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+            <svg class="radial-tools-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
               <rect width="256" height="256" fill="none" />
               <path
                 d="M104,126.94a64,64,0,0,1,80-90.29L144,80l5.66,26.34L176,112l43.35-40a64,64,0,0,1-90.29,80L73,217A24,24,0,0,1,39,183Z"
@@ -358,17 +358,25 @@
 
         <div class="menu">
           <div>
+
             <div class="radialOverlay">
-              <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" fill="green" stroke-width="1.5"
-                  viewBox="0 0 24 24" color="#000000">
+              <svg class="targe" width="29px" height="29px" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg" color="#000000">
+                <path
+                  d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426"
+                  stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+
+              <div id="selected-radial-icon" class="icon">
+                <!-- <svg id="selected-radial-icon" xmlns="http://www.w3.org/2000/svg" width="48px" height="48px"
+                  fill="green" stroke-width="1.5" viewBox="0 0 24 24" color="#000000">
                   <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
                     d="M4 6v6s0 3 7 3 7-3 7-3V6"></path>
                   <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
                     d="M11 3c7 0 7 3 7 3s0 3-7 3-7-3-7-3 0-3 7-3ZM11 21c-7 0-7-3-7-3v-6"></path>
                   <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" d="M15 21v-2M18 21v-4M21 21v-6">
                   </path>
-                </svg>
+                </svg> -->
               </div>
               <div class="overlayContent">
                 <h2 class="overlay-info overlay-backend">Backend</h2>
