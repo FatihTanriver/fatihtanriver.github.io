@@ -21,6 +21,8 @@
   "timeline_entity_desc_6": "Für meine Masterarbeit habe ich R-Funktionen in ein C#-MVC-Webprojekt integriert. Ich entwickelte Berechnungsmodelle unter Verwendung von R, was die Handhabung von Multiarrays und Dataframes durch multidimensionale Datenstrukturen beinhaltete. (Datenwerk GmbH)",
   "timeline_entity_desc_7": "Meine Hauptaufgabe war die Webentwicklung, wobei ich mich auf die Erstellung und Verbesserung dynamischer, reaktionsfähiger Webseiten mit C#, MVC, Bootstrap und Fullpage.js spezialisiert habe. Außerdem habe ich kurzzeitig mit dem Testen eingebetteter Systemsoftware gearbeitet. (Bayoonet AG)",
   "timeline_entity_desc_8": "Ich habe hauptsächlich an verschiedenen C# MVC und WPF Projekten gearbeitet, sowohl für die Backend- als auch für die Frontend Entwicklung. Dabei habe ich mich auf GUI-Implementierung, komplexe Datenvisualisierung und Workflow-Optimierung spezialisiert. Während dieser Zeit sammelte ich Erfahrungen in den Bereichen technische Konzepte, Dokumentation und Projektmanagement.Außerdem habe ich verschiedene Arten von Tests durchgeführt, darunter Unit-, Integrations- und End-to-End-Tests. (Datenwerk GmbH)",
+  "timeline_entity_desc_9": "Ich entwickelte ein Reporting-Modul, das in eine bestehende Desktop-Anwendung integriert wurde, mit Schwerpunkt auf der Automatisierung von Prozessen und der Verbesserung der Funktionalität. Zusätzlich analysierte und dokumentierte ich Datenbanken, einschließlich MSSQL, und führte Programmierungen sowie Integrationstests mit .NET (C#.NET / .NET Core, WinForms, OpenXML) durch.",
+
   "message_form_mail": "E-Mail",
   "message_form_subject": "Betreff",
   "message_form_body": "Bitte schreiben Sie Ihre Nachricht hier..",

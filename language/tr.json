@@ -21,6 +21,7 @@
   "timeline_entity_desc_6": "Yüksek lisans tezim için R işlevselliğini bir C# MVC web projesine entegre ettim. Çok boyutlu veri yapıları aracılığıyla çoklu dizileri ve veri çerçevelerini işlemeyi içeren R kullanarak hesaplama modelleri geliştirdim. (Datenwerk GmbH)",
   "timeline_entity_desc_7": "Birincil rolüm, C#, MVC, Bootstrap ve Fullpage.js kullanarak dinamik, duyarlı web sayfaları oluşturma ve geliştirme konusunda uzmanlaşarak web projesi geliştirmek idi. Ayrıca kısa bir süre gömülü sistem yazılımlarının test edilmesinde de çalıştım. (Bayoonet AG)",
   "timeline_entity_desc_8": "Çoğunlukla farklı C# MVC projelerinde çalıştım, hem backend hem de frontend geliştirmesini yönlendirerek. GUI uygulamasına, karmaşık veri görselleştirmeye ve iş akışı optimizasyonuna odaklandım. Bu süreçte teknik konular, belgeleme ve proje yönetimi alanında deneyim kazandım. Ayrıca Birim, Entegrasyon ve Uçtan Uca test dahil olmak üzere çeşitli test türlerini gerçekleştirdim. (Datenwerk GmbH)",
+  "timeline_entity_desc_9": "Mevcut bir masaüstü uygulamasına entegre edilen bir raporlama modülü geliştirdim, süreçlerin otomasyonu ve işlevselliğin iyileştirilmesine odaklandım. Ayrıca, MSSQL dahil olmak üzere veritabanlarını analiz edip dokümante ettim ve .NET (C#.NET / .NET Core, WinForms, OpenXML) kullanarak programlama ve entegrasyon testleri gerçekleştirdim.",
   "message_form_mail": "E-posta",
   "message_form_subject": "Konu",
   "message_form_body": "Lütfen Mesajınızı Buraya Yazınız...",
