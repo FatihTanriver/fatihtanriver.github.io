@@ -220,7 +220,7 @@ let langFlags = {
   tr: "images/flags/star-turkey.png",
   de: "images/flags/star-germany.png",
   es: "images/flags/star-spain.png",
-  en: "images/flags/star-usa.png",
+  en: "images/flags/uk-flag.png",
 };
 
 /*Start Language Translation*/
